@@ -11,10 +11,10 @@ global.email ="allantush55@gmail.com"
 global.location="Lahore,Pakistan."
 
 
-global.mongodb= process.env.MONGODB_URI || "mongodb+srv://ronnyfred50:Milkyway8*@cluster0.syelh1r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+global.mongodb= process.env.MONGODB_URI || "postgresql://menta_user:2ScggE2MkVb3arjPfGq4aSw9eKcewCIE@dpg-cqn9jaaj1k6c73ancn0g-a.oregon-postgres.render.com/menta"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
-global.DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://ronnyfred50:Milkyway8*@cluster0.syelh1r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+global.DATABASE_URL = process.env.DATABASE_URL || "postgresql://menta_user:2ScggE2MkVb3arjPfGq4aSw9eKcewCIE@dpg-cqn9jaaj1k6c73ancn0g-a.oregon-postgres.render.com/menta"
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Afrca/Nairobi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
